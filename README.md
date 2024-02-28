@@ -1,5 +1,7 @@
 ## signn: Signal Detection and Classification using Neural Networks
 
+## Disclaimer  
+This is a forked repository from https://gitlab.com/librespacefoundation/sdrmakerspace/signn, commit SHA hash acb41e9d.  
 
 ## Requirements
 The requirements are listed in the *requirements3.txt* located in the root directory of this project.
@@ -19,7 +21,7 @@ In addition, for running some auxilliary scripts some extra dependencies should 
 ## Download & Install
 
 ~~~~
-$ git clone https://gitlab.com/librespacefoundation/sdrmakerspace/signn.git
+$ git clone https://github.com/srhee0187/signn.git
 $ cd signn
 $ python3 -m pip install --user -r requirements3.txt
 $ python -m pip install --user h5py==2.9.0 numpy==1.16.2
